@@ -6,7 +6,7 @@ console.log("--------Forming Data--------");
 console.log("Forming...");
 console.log();
 
-glob("queryData/**/*.json", (er, files) => {
+glob("graphqlData/**/*.json", (er, files) => {
     if (er) return `Error! ${err}`;
     files.forEach((file) => {
         const graphQLData = require("./" + file);
