@@ -1,0 +1,8 @@
+{
+    "dependencies": {
+        "@onflow/config": "^0.0.2",
+        "@onflow/fcl": "^0.0.69",
+        "@onflow/types": "^0.0.4",
+        "glob": "^7.1.6"
+    }
+}
